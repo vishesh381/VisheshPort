@@ -1,28 +1,29 @@
 // Skills Section Logo's
 import htmlLogo from './assets/tech_logo/html.png';
 import cssLogo from './assets/tech_logo/css.png';
-import sassLogo from './assets/tech_logo/sass.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
-import angularLogo from './assets/tech_logo/angular.png';
 import reduxLogo from './assets/tech_logo/redux.png';
-import nextjsLogo from './assets/tech_logo/nextjs.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-import gsapLogo from './assets/tech_logo/gsap.png';
 import materialuiLogo from './assets/tech_logo/materialui.png';
 import bootstrapLogo from './assets/tech_logo/bootstrap.png';
 import springbootLogo from './assets/tech_logo/springboot.png';
-import nodejsLogo from './assets/tech_logo/nodejs.png';
-import expressjsLogo from './assets/tech_logo/express.png';
-import mysqlLogo from './assets/tech_logo/mysql.png';
+import mysqlLogo from './assets/tech_logo/mysql.png'; 
+import awsLogo from './assets/tech_logo/aws.png';
+import dockerLogo from './assets/tech_logo/docker.png';
+import junitLogo from './assets/tech_logo/junit.png';
+import seleniumLogo from './assets/tech_logo/selenium.png'; 
+import salesforceLogo from './assets/tech_logo/salesforce.png'
+import kotlinLogo from './assets/tech_logo/kotlin.png'
+import jenkinsLogo from './assets/tech_logo/jenkins.png'
 import mongodbLogo from './assets/tech_logo/mongodb.png';
 import firebaseLogo from './assets/tech_logo/firebase.png';
 import cLogo from './assets/tech_logo/c.png';
-import cppLogo from './assets/tech_logo/cpp.png';
 import javaLogo from './assets/tech_logo/java.png';
 import pythonLogo from './assets/tech_logo/python.png';
 import typescriptLogo from './assets/tech_logo/typescript.png';
 import gitLogo from './assets/tech_logo/git.png';
+import almLogo from './assets/tech_logo/alm.png'
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
 import postmanLogo from './assets/tech_logo/postman.png';
@@ -31,44 +32,39 @@ import figmaLogo from './assets/tech_logo/figma.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
-import csharpLogo from './assets/tech_logo/csharp.png';
+
 
 // Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+
+import accentureLogo from './assets/company_logo/accenture.png';
+import rootKingsLogo from './assets/company_logo/rk.png';
+import peopleInfoTechLogo from './assets/company_logo/peopleinfotech.png';
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
+import paceUniversityLogo from './assets/education_logo/pace.png';
+import nietLogo from './assets/education_logo/niet.png';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
-
-
+import balanceblissLogo from './assets/work_logo/balancebliss.png';
+import caliLogo from './assets/work_logo/california.png';
+import tweetLogo from './assets/work_logo/tweetclassifier.png';
+import newsZapLogo from './assets/work_logo/newz.png';
+import shopzyLogo from './assets/work_logo/shop.png';
+import swiftLogo from './assets/work_logo/swiftInvoice.png';
+import yumrunLogo from './assets/work_logo/yumrun.png';
+import skillBridgeLogo from './assets/work_logo/skillbridgeLogo.png';
+import dreamLogo from './assets/work_logo/dream.png';
+import gatherlyLogo from './assets/work_logo/gatherly.png';
 export const SkillsInfo = [
   {
     title: 'Frontend',
     skills: [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
-      { name: 'SASS', logo: sassLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
-      { name: 'Angular', logo: angularLogo },
       { name: 'Redux', logo: reduxLogo },
-      { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'GSAP', logo: gsapLogo },
       { name: 'Material UI', logo: materialuiLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
     ],
@@ -77,9 +73,8 @@ export const SkillsInfo = [
     title: 'Backend',
     skills: [
       { name: 'Springboot', logo: springbootLogo },
-      { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
+      { name: 'SOSL/SOQL', logo: salesforceLogo },
       { name: 'MongoDB', logo: mongodbLogo },
       { name: 'Firebase', logo: firebaseLogo },
       { name: 'PostgreSQL', logo: postgreLogo },
@@ -89,22 +84,28 @@ export const SkillsInfo = [
     title: 'Languages',
     skills: [
       { name: 'C', logo: cLogo },
-      { name: 'C++', logo: cppLogo },
       { name: 'Java', logo: javaLogo },
       { name: 'Python', logo: pythonLogo },
-      { name: 'C-Sharp', logo: csharpLogo },
+      { name: 'Apex', logo: salesforceLogo },
+      { name: 'Kotlin', logo: kotlinLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'TypeScript', logo: typescriptLogo },
     ],
   },
   {
-    title: 'Tools',
+    title: 'Devops, Tools & Testing',
     skills: [
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
+      { name: 'AWS', logo: awsLogo }, 
+      { name: 'Docker', logo: dockerLogo },
+      { name: 'jUnit', logo: junitLogo },
+      { name: 'Selenium', logo: seleniumLogo },
       { name: 'VS Code', logo: vscodeLogo },
       { name: 'Postman', logo: postmanLogo },
-      { name: 'Compass', logo: mcLogo },
+      { name: 'Jira', logo: mcLogo },
+      { name: 'Jenkins', logo: jenkinsLogo },
+      { name: 'ALM', logo: almLogo },
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Netlify', logo: netlifyLogo },
       { name: 'Figma', logo: figmaLogo },
@@ -115,48 +116,64 @@ export const SkillsInfo = [
   export const experiences = [
     {
       id: 0,
-      img: webverseLogo,
-      role: "Fullstack Developer",
-      company: "Webverse Digital",
-      date: "April 2024 - Present",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-      skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
-      ],
+      img: accentureLogo,
+      role: "Senior Software Engineer",
+      company: "Accenture",
+      date: "February 2021 - September 2023",
+      desc: `● Engineered dynamic web apps using React.js and Spring Boot, boosting compatibility and reducing page load times by 25%.
+● Refactored API layer and implemented Redis caching, reducing latency by 40%.
+● Accelerated deployment cycles by 30% through optimized Jenkins pipelines and Bitbucket integrations.
+● Designed and scaled REST APIs for microservices supporting 2M+ users, integrated with SQL and MongoDB.
+● Led Docker and Kubernetes containerization for 10+ modules, improving system uptime by 35%.
+● Directed code reviews for 6 junior developers and conducted regular KT sessions and accelerated promotion for high-impact delivery.
+● Built and tested Spring-based REST APIs with Mockito; aligned design with business goals.
+● Significantly improved system performance through code refactoring and optimization efforts`,
+  skills: [
+    "ReactJS",
+    "Redux",
+    "JavaScript",
+    "Tailwind CSS",
+    "HTML",
+    "CSS",
+    "SQL",
+    "Spring Boot",
+    "Java",
+    "Salesforce Development",
+    "MongoDB",
+    "Redis",
+    "Jenkins",
+    "Docker",
+    "Kubernetes",
+    "Bitbucket",
+  ],
     },
     {
-      id: 1,
-      img: agcLogo,
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-      skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "SQL",
-      ],
-    },
+  id: 1,
+  img: rootKingsLogo,
+  role: "Fullstack Engineer",
+  company: "Root Kings",
+  date: "January 2020 - January 2021",
+  desc: `● Developed “STOQ Club” with Java (Spring Boot) and Vue.js, optimizing real-time trading for 5,000+ users.
+● Enabled real-time data processing via event-driven WebSocket architecture, reducing data lag to under 300ms.`,
+  skills: [
+    "PostgreSQL",
+    "AWS",
+    "JavaScript",
+    "Docker Containerization",
+    "Spring Boot",
+    "Java",
+    "MongoDB",
+    "Jenkins",
+    "Bitbucket",
+  ],
+}, 
     {
       id: 2,
-      img: newtonschoolLogo,
-      role: "Frontend Intern",
-      company: "Newton School",
-      date: "September 2021 - August 2022",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
+      img: peopleInfoTechLogo,
+      role: "SDE Intern",
+      company: "People Infotech Pvt. Ltd.",
+      date: "September 2018 - February 2019",
+      desc: "Worked as a Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
       skills: [
         "HTML",
         "CSS",
@@ -171,131 +188,118 @@ export const SkillsInfo = [
   export const education = [
     {
       id: 0,
-      img: glaLogo,
-      school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
+      img: paceUniversityLogo,
+      school: "Pace University, New York",
+      date: "Sept 2023 - May 2025",
+      grade: "3.8/4.0",
+      desc: "I have completed my Master's degree (MS) in Computer Science from Pace University, New York. During my time, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at PACE University has been instrumental in shaping my technical abilities and professional growth.",
+      degree: "Master of Science - MS",
     },
     {
       id: 1,
-      img: bsaLogo,
-      school: "BSA College, Mathura",
-      date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
-    },
-    {
-      id: 2,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
-    },
-    {
-      id: 3,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-      degree: "CBSE(X), Science with Computer Application",
+      img: nietLogo,
+      school: "NIET, Gr. Noida",
+      date: "Aug 2016 - Sept 2020",
+      grade: "3.3/4.0",
+      desc: "I completed my Bachelor's degree in Computer Science from NIET College. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at NIET College allowed me to work on projects that applied theoretical concepts to real-world problems.",
+      degree: "Bachelor of Science - Computer Science",
     },
   ];
   
   export const projects = [
     {
       id: 0,
-      title: "GitHub Profile Detective",
+      title: "SkillBridge",
       description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
+        "Developed a full-stack job application portal with 100+ user interactions per session with chat and resume download features",
+      image: skillBridgeLogo,
+      tags: ["Springboot", "Java", "MongoDB", "React JS", "API","Render"],
+      github: "https://github.com/vishesh381/Capstone_Project_V1",
+      webapp: "https://skillbridge-frontend.onrender.com/",
     },
     {
       id: 1,
-      title: "CS Prep",
+      title: "YumRun",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
+        "Built a full-stack food delivery app with smart ordering, real-time tracking, and Razorpay/Stripe integration",
+      image: yumrunLogo,
+      tags: ["React JS", "Springboot", "MySQL", "ExpAmazon RDSress", "Razorpay & Stripe API"],
+      github: "https://github.com/vishesh381/YumRun",
+      webapp: "https://yumrun-frontend.onrender.com/",
     },
     {
       id: 2,
-      title: "Movie Recommendation App",
+      title: "SwiftInvoice",
       description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
+        "Developed a cloud-based billing app with Razorpay integration, PDF billing, self-user ordering, billing analytics",
+      image: swiftLogo,
+      tags: ["React JS", "Spring Boot", "MySQL","Razorpay API"],
+      github: "https://github.com/vishesh381/SwiftInvoice",
     },
     {
       id: 3,
-      title: "Email Validator NPM Package",
+      title: "Shopzy",
       description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-      image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+        "Built a full-stack eCommerce app with product browsing, cart management, order processing with customer and payment support",
+      image: shopzyLogo,
+      tags: ["React JS", "Spring Boot","PostgreSQL", "Stripe API"],
+      github: "https://github.com/vishesh381/Shopzy-Backend",
+      webapp: "https://shopzy-frontend.onrender.com/",
     },
     {
       id: 4,
-      title: "Task Reminder Chrome Extension Tool",
+      title: "NewsZap---Your-daily-dose-of-news",
       description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-      image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+        "Created, a React-based news app delivering real-time headlines via NewsAPI with category-wise filtering and responsive UI.",
+      image: newsZapLogo,
+      tags: ["HTML", "CSS", "JavaScript", "ReactJS"],
+      github: "https://github.com/vishesh381/NewsZap---Your-daily-dose-of-news",
+      webapp: "https://newszap-your-daily-dose-of-news.onrender.com/",
     },
     {
       id: 5,
-      title: "Webverse Digital",
+      title: "California House Price Prediction",
       description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-      image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
+        `Built and optimized ML models to predict California house prices with 85% accuracy on 20K+ records, analyzing income
+correlations via Linear Regression, Decision Tree, and Random Forest; visualized results with scikit-learn and Matplotlib.`,
+      image: caliLogo,
+      tags: ["Python", "ML"],
+      github: "https://github.com/vishesh381/California-Housing-Prices",
     },
     {
       id: 6,
-      title: "Coding Master",
+      title: "Balance Bliss",
       description:
-        "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-      image: cmLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
+        "Created a lifestyle Android app enabling 500+ users to track wellness goals using Jetpack Compose",
+      image: balanceblissLogo,
+      tags: ["Kotlin", "Jetpack Compose", "Firebase"],
+      github: "https://github.com/vishesh381/Balance-Bliss",
     },
     {
       id: 7,
-      title: "Image Search App",
+      title: "Tweet Classifier",
       description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
+        "Extracted and classified user opinions from Twitter, a widely used social networking site where millions share views on life, products, and services. The project aimed to harness this rich data source to analyze sentiments on various topics, including politics and religion, and derive valuable, actionable insights.",
+      image: tweetLogo,
+      tags: ["Java", "API", "Twitter4J", "Swing"],
+      github: "https://github.com/vishesh381/Tweet-Classification",
+    },
+    { 
+      id: 7,
+      title: "DreamCRV",
+      description:
+        "Developed a real-time car customization tool using Lightning Web Components OSS with real-time form handling.",
+      image: dreamLogo,
+      tags: ["Java", "API", "Twitter4J", "Swing"],
+      github: "https://github.com/vishesh381/DreamCRV",
     },
     {
-      id: 8,
-      title: "Image Background Remover",
+      id: 7,
+      title: "Gatherly",
       description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
+        "Built an invitation management app in Salesforce, streamlining event creation and RSVPs within the platform",
+      image: gatherlyLogo,
+      tags: ["Java", "API", "Twitter4J", "Swing"],
+      github: "https://github.com/vishesh381/Gatherly---Your-Invitation-App",
     },
   ];  
