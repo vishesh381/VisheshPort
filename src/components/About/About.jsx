@@ -54,8 +54,8 @@ const About = () => {
           </p>
           {/* Resume Button */}
 <button
-  className="btn btn-color-2"
-  onClick={() => window.open('./assets/VisheshSharma_FullStack.pdf', '_blank')}
+  onClick={() => window.open('/VisheshSharma_FullStack.pdf', '_blank')}
+  className="bg-[#8245ec] text-white font-bold py-3 px-6 rounded-lg text-lg shadow-md hover:bg-[#6d34cc] transition duration-300"
 >
   Download CV
 </button>

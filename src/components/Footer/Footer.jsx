@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-
+import trailheadIcon from '../../assets/trailhead.png';
 const Footer = () => {
   // Smooth scroll function
   const handleScroll = (sectionId) => {
@@ -43,7 +43,7 @@ const Footer = () => {
              {
       icon: (
         <img
-          src={"src/assets/trailhead.png"}
+          src={trailheadIcon}
           alt="Custom"
           className="w-6 h-6" // adjust size as needed
         />
