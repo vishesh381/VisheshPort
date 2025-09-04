@@ -119,41 +119,7 @@ export const SkillsInfo = [
 
   export const experiences = [
     {
-      id: 0,
-      img: seatGeek,
-      role: "Frontend Software Engineer",
-      company: "SeatGeek",
-      date: "Sept 2024 - Current",
-      desc: `● Developed and enhanced SeatGeek’s mobile first ticket marketplace web application using React, improving user interaction and responsiveness for thousands of live sports, concert, and theater attendees daily.
-● Implemented interactive seat maps and dynamic pricing display using React state management and API integrations, boosting user engagement and purchase conversion rates.
-● Collaborated with cross functional teams including product, design, and backend engineers to ship scalable UI features aligned with the company’s proprietary Deal Score algorithm and mobile first philosophy.
-● Participated in code reviews and frontend performance optimizations, ensuring a smooth, accessible, and fast loading user experience on multiple device types and browsers.
-● Integrated real time notifications and personalized user recommendations using WebSockets and API endpoints, enhancing user retention and session time.
-● Worked on accessibility improvements (ARIA roles, keyboard navigation, screen reader support) to ensure compliance with WCAG standards.
-● Proactively identified UI/UX bottlenecks, conducted A/B tests, and implemented solutions that increased conversion and reduced bounce rates.
-`,
-  skills: [
-    "ReactJS",
-    "Redux",
-    "JavaScript",
-    "Tailwind CSS",
-    "HTML",
-    "CSS",
-    "SQL",
-    "Spring Boot",
-    "Java",
-    "Salesforce Development",
-    "MongoDB",
-    "Redis",
-    "Jenkins",
-    "Docker",
-    "Kubernetes",
-    "Bitbucket",
-    "AWS",
-  ],
-    }
-    ,{
-      id: 0,
+      id: 0, 
       img: accentureLogo,
       role: "Senior Software Engineer",
       company: "Accenture",
@@ -217,7 +183,7 @@ export const SkillsInfo = [
       img: peopleInfoTechLogo,
       role: "Frontend Engineer",
       company: "People Infotech Pvt. Ltd.",
-      date: "July 2019 - Dec 2019",
+      date: "Sept 2018 - Feb 2019",
       desc: `● Enhanced and supported backend systems by resolving 30+ bugs and implementing 20+ features with full test coverage.
 ● Developed dynamic frontend components using React and vanilla JavaScript, improving user interactivity, responsiveness, and DOM manipulation performance.
 ● Implemented custom JavaScript functionality including event handling, animations, form validation, and API integration to create seamless user experiences.
