@@ -8,6 +8,8 @@ import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
 import materialuiLogo from './assets/tech_logo/materialui.png';
 import bootstrapLogo from './assets/tech_logo/bootstrap.png';
 import springbootLogo from './assets/tech_logo/springboot.png';
+import nodejsLogo from './assets/tech_logo/nodejsLogo.png';
+import tsLogo from './assets/tech_logo/tsLogo.png';
 import mysqlLogo from './assets/tech_logo/mysql.png'; 
 import awsLogo from './assets/tech_logo/aws.png';
 import dockerLogo from './assets/tech_logo/docker.png';
@@ -35,7 +37,7 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 
 
 // Experience Section Logo's
-
+import seatGeek from './assets/company_logo/seatGeek.png';
 import accentureLogo from './assets/company_logo/accenture.png';
 import rootKingsLogo from './assets/company_logo/rk.png';
 import peopleInfoTechLogo from './assets/company_logo/peopleinfotech.png';
@@ -67,6 +69,7 @@ export const SkillsInfo = [
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       { name: 'Material UI', logo: materialuiLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
+      { name: 'TypeScript', logo: tsLogo },
     ],
   },
   {
@@ -78,6 +81,7 @@ export const SkillsInfo = [
       { name: 'MongoDB', logo: mongodbLogo },
       { name: 'Firebase', logo: firebaseLogo },
       { name: 'PostgreSQL', logo: postgreLogo },
+      { name: 'Node.js', logo: nodejsLogo },
     ],
   },
   {
@@ -116,18 +120,18 @@ export const SkillsInfo = [
   export const experiences = [
     {
       id: 0,
-      img: accentureLogo,
-      role: "Senior Software Engineer",
-      company: "Accenture",
-      date: "February 2021 - September 2023",
-      desc: `● Engineered dynamic web apps using React.js and Spring Boot, boosting compatibility and reducing page load times by 25%.
-● Refactored API layer and implemented Redis caching, reducing latency by 40%.
-● Accelerated deployment cycles by 30% through optimized Jenkins pipelines and Bitbucket integrations.
-● Designed and scaled REST APIs for microservices supporting 2M+ users, integrated with SQL and MongoDB.
-● Led Docker and Kubernetes containerization for 10+ modules, improving system uptime by 35%.
-● Directed code reviews for 6 junior developers and conducted regular KT sessions and accelerated promotion for high-impact delivery.
-● Built and tested Spring-based REST APIs with Mockito; aligned design with business goals.
-● Significantly improved system performance through code refactoring and optimization efforts`,
+      img: seatGeek,
+      role: "Frontend Software Engineer",
+      company: "SeatGeek",
+      date: "Sept 2024 - Current",
+      desc: `● Developed and enhanced SeatGeek’s mobile first ticket marketplace web application using React, improving user interaction and responsiveness for thousands of live sports, concert, and theater attendees daily.
+● Implemented interactive seat maps and dynamic pricing display using React state management and API integrations, boosting user engagement and purchase conversion rates.
+● Collaborated with cross functional teams including product, design, and backend engineers to ship scalable UI features aligned with the company’s proprietary Deal Score algorithm and mobile first philosophy.
+● Participated in code reviews and frontend performance optimizations, ensuring a smooth, accessible, and fast loading user experience on multiple device types and browsers.
+● Integrated real time notifications and personalized user recommendations using WebSockets and API endpoints, enhancing user retention and session time.
+● Worked on accessibility improvements (ARIA roles, keyboard navigation, screen reader support) to ensure compliance with WCAG standards.
+● Proactively identified UI/UX bottlenecks, conducted A/B tests, and implemented solutions that increased conversion and reduced bounce rates.
+`,
   skills: [
     "ReactJS",
     "Redux",
@@ -145,6 +149,42 @@ export const SkillsInfo = [
     "Docker",
     "Kubernetes",
     "Bitbucket",
+    "AWS",
+  ],
+    }
+    ,{
+      id: 0,
+      img: accentureLogo,
+      role: "Senior Software Engineer",
+      company: "Accenture",
+      date: "February 2021 - September 2023",
+      desc: `● Built scalable, high performance web applications using React.js (frontend) and Spring Boot (backend), reducing load times by 25% and improving system reliability.
+      ● Refactored frontend architecture with React hooks, Redux, and Context API for state management, creating reusable components that accelerated development by 30%.
+● Designed and implemented distributed microservices on AWS (EC2, Lambda, CloudWatch) with CI/CD pipelines via Jenkins, improving deployment efficiency.
+● Optimized backend performance using Redis caching and Elasticsearch indexing, reducing query latency by 40%.
+● Led containerization initiatives with Docker & Kubernetes, increasing system uptime and reliability by 35%.
+● Directed design reviews, mentored 6+ developers, and influenced architectural decisions to deliver scalable, fault tolerant solutions.
+● Championed best practices in frontend (React.js) and backend (Spring Boot) code quality, documentation, and testing, reducing production defects by 30%.
+● Facilitated cross functional collaboration between frontend, backend, and DevOps teams, streamlining delivery of features for global clients.
+● Acted as technical lead for critical modules, guiding junior developers, conducting code reviews, and implementing reusable UI components and services.`,
+  skills: [
+    "ReactJS",
+    "Redux",
+    "JavaScript",
+    "Tailwind CSS",
+    "HTML",
+    "CSS",
+    "SQL",
+    "Spring Boot",
+    "Java",
+    "Salesforce Development",
+    "MongoDB",
+    "Redis",
+    "Jenkins",
+    "Docker",
+    "Kubernetes",
+    "Bitbucket",
+    "AWS",
   ],
     },
     {
@@ -153,8 +193,11 @@ export const SkillsInfo = [
   role: "Fullstack Engineer",
   company: "Root Kings",
   date: "January 2020 - January 2021",
-  desc: `● Developed “STOQ Club” with Java (Spring Boot) and Vue.js, optimizing real-time trading for 5,000+ users.
-● Enabled real-time data processing via event-driven WebSocket architecture, reducing data lag to under 300ms.`,
+  desc: `● Developed event driven microservices in Java + Spring Boot with Kafka for real-time content updates and access decision workflows.
+● Designed REST APIs enabling structured data retrieval, filtering, and integration with trading applications.
+● Built responsive frontend dashboards with React and Vue.js, integrating live trade data via WebSockets for real time updates and notifications.
+● Architected scalable system designs including database schema, caching strategies, and asynchronous processing for high traffic loads.
+● Collaborated with cross functional teams to define architecture, enforce design patterns, conduct code reviews, and ensure maintainable full-stack solutions.`,
   skills: [
     "PostgreSQL",
     "AWS",
@@ -165,15 +208,26 @@ export const SkillsInfo = [
     "MongoDB",
     "Jenkins",
     "Bitbucket",
+    "React.js",
+    "Vue.js",
   ],
 }, 
     {
       id: 2,
       img: peopleInfoTechLogo,
-      role: "SDE Intern",
+      role: "Frontend Engineer",
       company: "People Infotech Pvt. Ltd.",
-      date: "September 2018 - February 2019",
-      desc: "Worked as a Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
+      date: "July 2019 - Dec 2019",
+      desc: `● Enhanced and supported backend systems by resolving 30+ bugs and implementing 20+ features with full test coverage.
+● Developed dynamic frontend components using React and vanilla JavaScript, improving user interactivity, responsiveness, and DOM manipulation performance.
+● Implemented custom JavaScript functionality including event handling, animations, form validation, and API integration to create seamless user experiences.
+● Optimized frontend performance by minimizing reflows, managing asynchronous requests with Promises and async/await, and reducing load times.
+● Gained hands-on experience in the full SDLC, including requirement analysis, design, development, testing, and deployment.
+● Participated in Agile Scrum ceremonies, including daily stand ups, sprint planning, and retrospectives.
+● Collaborated with QA, backend, and product managers to deliver high quality features with attention to UI/UX and accessibility.
+● Documented code, processes, and workflows to support team knowledge sharing and maintainability.
+● Built reusable JavaScript utility functions and modular code to improve development efficiency across projects.
+`,
       skills: [
         "HTML",
         "CSS",
@@ -181,6 +235,7 @@ export const SkillsInfo = [
         "Bootstrap",
         "Figma",
         "Material UI",
+        "DOM",
       ],
     },
   ];
@@ -190,7 +245,6 @@ export const SkillsInfo = [
       id: 0,
       img: paceUniversityLogo,
       school: "Pace University, New York",
-      date: "Sept 2023 - May 2025",
       grade: "3.8/4.0",
       desc: "I have completed my Master's degree (MS) in Computer Science from Pace University, New York. During my time, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at PACE University has been instrumental in shaping my technical abilities and professional growth.",
       degree: "Master of Science - MS",
@@ -199,7 +253,6 @@ export const SkillsInfo = [
       id: 1,
       img: nietLogo,
       school: "NIET, Gr. Noida",
-      date: "Aug 2016 - Sept 2020",
       grade: "3.3/4.0",
       desc: "I completed my Bachelor's degree in Computer Science from NIET College. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at NIET College allowed me to work on projects that applied theoretical concepts to real-world problems.",
       degree: "Bachelor of Science - Computer Science",

@@ -25,6 +25,7 @@ const About = () => {
             <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
+                'React Developer',
                 'Java Fullstack Developer',
                 'Salesforce Developer',
                 'Passionate Coder',
@@ -41,20 +42,15 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I’m a results-driven Full Stack Software Engineer with 4.5+ years
-            of experience building scalable web applications and microservices. I’ve led performance 
-            optimization initiatives, reduced backend latency by 40% using Redis 
-            caching, and accelerated deployments by 30% through optimized CI/CD 
-            pipelines with Jenkins and Bitbucket. My expertise spans RESTful API design, 
-            SQL and NoSQL databases (MongoDB), containerization with Docker and Kubernetes, 
-            and full-cycle development. I am 4x Salesforce certified with expertise in Salesforce Development.
-            I thrive in collaborative environments, 
-            enjoy mentoring peers, and consistently deliver clean, maintainable, 
-            and production-ready code for high-availability systems used by millions.
+          Results-driven Software Engineer with 5 years of experience in full-stack and frontend development, specializing in Salesforce, Java/Spring Boot, and React.js for enterprise-scale applications. Fast-tracked to Senior Software Development Engineer (SDE) within one year, consistently recognized for delivering complex, high-impact features with strong quality standards.
+I bring advanced expertise in JavaScript (ES6+), TypeScript, and modern UI libraries such as React.js, Redux/Redux Toolkit, Context API, Material UI, Tailwind CSS, and Mantine. My extensive React experience spans state management, lifecycle optimization, memoization, lazy loading, code splitting, and building reusable component libraries—ensuring scalable and modular architectures.
+On the backend, I specialize in Java (Spring Boot), Node.js, and Express.js, focusing on secure, high-performance REST APIs with JWT/OAuth2 authentication and RBAC implementations. I have deep database knowledge across PostgreSQL, MySQL, Oracle, and MongoDB, with hands-on experience in schema design, indexing, and query optimization. My cloud expertise includes CI/CD pipelines with Jenkins, GitHub Actions, and GitLab CI, containerization with Docker, Kubernetes orchestration, and deploying microservices on AWS, GCP, and Heroku.
+I am proficient in automated testing using Jest, React Testing Library, Cypress, and Postman, following TDD practices for production-ready releases. My portfolio includes full-stack solutions with payment gateway integrations, real-time dashboards, and scalable CRM applications.
+As a 4x Salesforce Certified Developer, I excel in Apex, LWC, Triggers, and API integrations (REST/SOAP). Beyond coding, I contribute as a collaborative Agile team member, mentor junior engineers, conduct code reviews, and drive knowledge-sharing to elevate team performance.  
           </p>
           {/* Resume Button */}
 <button
-  onClick={() => window.open('/VisheshSharma_FullStack.pdf', '_blank')}
+  onClick={() => window.open('/VisheshSharma_Resume.pdf', '_blank')}
   className="bg-[#8245ec] text-white font-bold py-3 px-6 rounded-lg text-lg shadow-md hover:bg-[#6d34cc] transition duration-300"
 >
   Download CV
