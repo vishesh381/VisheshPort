@@ -39,7 +39,7 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 // Experience Section Logo's
 import seatGeek from './assets/company_logo/seatGeek.png';
 import accentureLogo from './assets/company_logo/accenture.png';
-import rootKingsLogo from './assets/company_logo/rk.png';
+import genpactLogo from './assets/company_logo/GenpactLogo.png';
 import peopleInfoTechLogo from './assets/company_logo/peopleinfotech.png';
 
 // Education Section Logo's
@@ -119,9 +119,45 @@ export const SkillsInfo = [
 
   export const experiences = [
     {
-      id: 0, 
+      id: 0,
+      img: seatGeek,
+      role: "Senior Full Stack Java Developer",
+      company: "SeatGeeks",
+      date: "Sept 2024 - Current",
+      desc: `● Built and optimized frontend features using React, including interactive seat maps, dynamic pricing displays, and
+personalized seat recommendations, ensuring smooth, responsive performance across devices
+● Implemented full-stack features, including backend APIs for seat availability, pricing, and real-time Deal Score ranking,
+integrating seamlessly with frontend components.
+● Designed and maintained real-time updates using WebSockets (SockJS + STOMP), delivering instant seat availability, pricing
+changes, and notifications to enhance user engagement and conversion.
+● Integrated the Deal Score algorithm to highlight best-value seats, auto-scroll to optimal sections, and provide personalized
+recommendations based on user behavior and location.
+● Collaborated with designers to implement scalable, high-performance UI features while developing end to end functionality.
+`,
+  skills: [
+    "ReactJS",
+    "Redux",
+    "JavaScript",
+    "Tailwind CSS",
+    "HTML",
+    "CSS",
+    "SQL",
+    "Spring Boot",
+    "Java",
+    "Salesforce Development",
+    "MongoDB",
+    "Redis",
+    "Jenkins",
+    "Docker",
+    "Kubernetes",
+    "Bitbucket",
+    "AWS",
+  ],
+    }
+    ,{
+      id: 1,
       img: accentureLogo,
-      role: "Senior Software Engineer",
+      role: "Senior Full Stack Java Developer",
       company: "Accenture",
       date: "February 2021 - September 2023",
       desc: `● Built scalable, high performance web applications using React.js (frontend) and Spring Boot (backend), reducing load times by 25% and improving system reliability.
@@ -154,10 +190,10 @@ export const SkillsInfo = [
   ],
     },
     {
-  id: 1,
-  img: rootKingsLogo,
+  id: 2,
+  img: genpactLogo,
   role: "Fullstack Engineer",
-  company: "Root Kings",
+  company: "Genpact",
   date: "January 2020 - January 2021",
   desc: `● Developed event driven microservices in Java + Spring Boot with Kafka for real-time content updates and access decision workflows.
 ● Designed REST APIs enabling structured data retrieval, filtering, and integration with trading applications.
@@ -179,11 +215,11 @@ export const SkillsInfo = [
   ],
 }, 
     {
-      id: 2,
+      id: 3,
       img: peopleInfoTechLogo,
       role: "Frontend Engineer",
       company: "People Infotech Pvt. Ltd.",
-      date: "Sept 2018 - Feb 2019",
+      date: "July 2019 - Dec 2019",
       desc: `● Enhanced and supported backend systems by resolving 30+ bugs and implementing 20+ features with full test coverage.
 ● Developed dynamic frontend components using React and vanilla JavaScript, improving user interactivity, responsiveness, and DOM manipulation performance.
 ● Implemented custom JavaScript functionality including event handling, animations, form validation, and API integration to create seamless user experiences.
