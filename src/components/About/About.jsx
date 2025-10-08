@@ -50,7 +50,7 @@ As a 4x Salesforce Certified Developer, I excel in Apex, LWC, Triggers, and API 
           </p>
           {/* Resume Button */}
 <button
-  onClick={() => window.open('/Vishesh Sharma Full Stack Java Developer.pdf', '_blank')}
+  onClick={() => window.open('/Vishesh_Sharma_Full_Stack_Java_Developer.pdf', '_blank')}
   className="bg-[#8245ec] text-white font-bold py-3 px-6 rounded-lg text-lg shadow-md hover:bg-[#6d34cc] transition duration-300"
 >
   Download CV
